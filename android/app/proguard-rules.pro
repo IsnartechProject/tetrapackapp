@@ -8,3 +8,7 @@
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
 # Add any project specific keep options here:
+
+# Ignore missing proguard.annotation classes used by Razorpay SDK
+-dontwarn proguard.annotation.Keep
+-dontwarn proguard.annotation.KeepClassMembers
